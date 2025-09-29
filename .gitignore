@@ -1,3 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vs/
+*.sublime-project
+*.sublime-workspace
+
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -6,12 +38,36 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+Desktop.ini
 
-# IDE files
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
+# Temporary files
+*.log
+*.tmp
+*.temp
+.cache/
 
-# Dependencies
-node_modules/
+# Coverage directory used by testing tools
+coverage/
+
+# Local development server
+.dev/
+.local/
+
+# Misc
+*.bak
+*.zip
+*.tar.gz
+*.rar
+
+# Optional: Uncomment if using these features
+# Database files
+# *.sqlite
+# *.db
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
