@@ -1,142 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LangBuddy - Language Exchange Community</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <h1>IT<span>Jobs</span></h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#jobs">Jobs</a></li>
-                <li><a href="#companies">Companies</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="auth-buttons">
-                <button class="login-btn">Login</button>
-                <button class="signup-btn">Sign Up</button>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Banner -->
-    <section id="hero" class="hero-section">
-        <div class="hero-content">
-            <h1>Find Your Dream IT Job</h1>
-            <p>Connect with top tech companies and launch your career</p>
-            <div class="search-box">
-                <input type="text" placeholder="Search for jobs...">
-                <select>
-                    <option value="">All Categories</option>
-                    <option value="developer">Developer</option>
-                    <option value="designer">Designer</option>
-                    <option value="devops">DevOps</option>
-                    <option value="data">Data Science</option>
-                </select>
-                <button class="search-btn">Search</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Partner Companies -->
-    <section id="companies" class="companies-section">
-        <h2>Our Partner Companies</h2>
-        <div class="company-grid">
-            <div class="company-card">
-                <img src="assets/company1.png" alt="Company 1">
-                <h3>Tech Corp</h3>
-            </div>
-            <div class="company-card">
-                <img src="assets/company2.png" alt="Company 2">
-                <h3>Innovation Labs</h3>
-            </div>
-            <div class="company-card">
-                <img src="assets/company3.png" alt="Company 3">
-                <h3>Digital Solutions</h3>
-            </div>
-            <div class="company-card">
-                <img src="assets/company4.png" alt="Company 4">
-                <h3>Future Systems</h3>
-            </div>
-        </div>
-    </section>
-
-    <!-- Application Process -->
-    <section id="process" class="process-section">
-        <h2>How to Apply</h2>
-        <div class="process-steps">
-            <div class="step">
-                <div class="step-icon">
-                    <i class="fas fa-user-plus"></i>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LangBuddy - Language Exchange Community</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>IT<span>Jobs</span></h1>
                 </div>
-                <h3>1. Create Account</h3>
-                <p>Sign up and complete your profile</p>
-            </div>
-            <div class="step">
-                <div class="step-icon">
-                    <i class="fas fa-file-alt"></i>
-                </div>
-                <h3>2. Upload Resume</h3>
-                <p>Add your CV and portfolio</p>
-            </div>
-            <div class="step">
-                <div class="step-icon">
-                    <i class="fas fa-search"></i>
-                </div>
-                <h3>3. Find Jobs</h3>
-                <p>Search and apply for positions</p>
-            </div>
-            <div class="step">
-                <div class="step-icon">
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <h3>4. Get Hired</h3>
-                <p>Interview and secure your role</p>
-            </div>
-        </div>
-    </section>
+                <ul class="nav-links">
+                    <!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="utf-8" />
+                            <meta
+                                name="viewport"
+                                content="width=device-width, initial-scale=1"
+                            />
+                            <title>ITJOB — Find Tech Talent & Jobs</title>
+                            <link rel="stylesheet" href="css/styles.css" />
+                            <link
+                                rel="stylesheet"
+                                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                            />
+                        </head>
+                        <body>
+                            <header class="site-header">
+                                <div class="container header-inner">
+                                    <a class="brand" href="#"
+                                        >IT<span>JOB</span></a
+                                    >
+                                    <nav class="main-nav">
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li>
+                                                <a href="#categories"
+                                                    >Categories</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a href="#how">How It Works</a>
+                                            </li>
+                                            <li><a href="#jobs">Jobs</a></li>
+                                            <li><a href="#blog">Blog</a></li>
+                                        </ul>
+                                    </nav>
+                                    <div class="header-actions">
+                                        <button class="btn btn-outline">
+                                            Sign In
+                                        </button>
+                                        <button class="btn btn-primary">
+                                            Post a Job
+                                        </button>
+                                    </div>
+                                </div>
+                            </header>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>About ITJobs</h3>
-                <p>Your trusted partner in IT recruitment, connecting talented professionals with leading tech companies.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#jobs">Browse Jobs</a></li>
-                    <li><a href="#companies">Companies</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                            <!-- Hero -->
+                            <section class="hero">
+                                <div class="container hero-inner">
+                                    <div class="hero-left">
+                                        <span class="badge"
+                                            >Hire & Get Hired</span
+                                        >
+                                        <h1>
+                                            Unlock Your Potential with New
+                                            Opportunities
+                                        </h1>
+                                        <p>
+                                            Discover thousands of tech roles and
+                                            top companies looking for talent.
+                                            Browse curated jobs and apply in
+                                            minutes.
+                                        </p>
+
+                                        <form class="search-form">
+                                            <input
+                                                type="text"
+                                                placeholder="e.g. UI/UX Designer"
+                                            />
+                                            <select>
+                                                <option>
+                                                    California, United States
+                                                </option>
+                                            </select>
+                                            <button class="btn btn-accent">
+                                                Search Jobs
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div class="hero-right">
+                                        <img
+                                            src="assets/hero-illustration.png"
+                                            alt="Hero"
+                                        />
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Categories -->
+                            <section id="categories" class="categories">
+                                <div class="container">
+                                    <h2>Browse Job By Category</h2>
+                                    <p class="muted">
+                                        Over 10k+ companies are looking for
+                                        hiring talent
+                                    </p>
+                                    <div class="category-grid">
+                                        <div class="cat-card">
+                                            <i class="fa-solid fa-palette"></i>
+                                            <h4>Design & Creative</h4>
+                                        </div>
+                                        <div class="cat-card highlight">
+                                            <i class="fa-solid fa-code"></i>
+                                            <h4>Web Development</h4>
+                                        </div>
+                                        <div class="cat-card">
+                                            <i class="fa-solid fa-bullhorn"></i>
+                                            <h4>Sale & Marketing</h4>
+                                        </div>
+                                        <div class="cat-card">
+                                            <i
+                                                class="fa-solid fa-file-lines"
+                                            ></i>
+                                            <h4>Content Writing</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- How It Works -->
+                            <section id="how" class="how">
+                                <div class="container">
+                                    <h2>How It Works?</h2>
+                                    <div class="how-grid">
+                                        <div class="how-step">
+                                            <h3>Create Account</h3>
+                                            <p>
+                                                Create profile and showcase your
+                                                skills.
+                                            </p>
+                                        </div>
+                                        <div class="how-step">
+                                            <h3>Search Job</h3>
+                                            <p>
+                                                Find roles that match your
+                                                skills.
+                                            </p>
+                                        </div>
+                                        <div class="how-step">
+                                            <h3>Upload Resume</h3>
+                                            <p>
+                                                Attach resume and portfolio for
+                                                employers to review.
+                                            </p>
+                                        </div>
+                                        <div class="how-step">
+                                            <h3>Apply Dream Job</h3>
+                                            <p>
+                                                Apply and get matched with
+                                                employers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Newest Jobs -->
+                            <section id="jobs" class="jobs">
+                                <div class="container">
+                                    <h2>Newest Jobs</h2>
+                                    <div class="jobs-grid">
+                                        <div class="job-card">
+                                            <div class="job-meta">
+                                                <span class="company"
+                                                    >Google</span
+                                                >
+                                                <h4>Business Analyst</h4>
+                                            </div>
+                                            <div class="job-actions">
+                                                <button
+                                                    class="btn btn-sm btn-outline"
+                                                >
+                                                    Save
+                                                </button>
+                                                <button
+                                                    class="btn btn-sm btn-primary"
+                                                >
+                                                    Apply
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="job-card">
+                                            <div class="job-meta">
+                                                <span class="company"
+                                                    >Facebook</span
+                                                >
+                                                <h4>Social Media Marketer</h4>
+                                            </div>
+                                            <div class="job-actions">
+                                                <button
+                                                    class="btn btn-sm btn-outline"
+                                                >
+                                                    Save
+                                                </button>
+                                                <button
+                                                    class="btn btn-sm btn-primary"
+                                                >
+                                                    Apply
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="job-card">
+                                            <div class="job-meta">
+                                                <span class="company"
+                                                    >Behance</span
+                                                >
+                                                <h4>Front End Developer</h4>
+                                            </div>
+                                            <div class="job-actions">
+                                                <button
+                                                    class="btn btn-sm btn-outline"
+                                                >
+                                                    Save
+                                                </button>
+                                                <button
+                                                    class="btn btn-sm btn-primary"
+                                                >
+                                                    Apply
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="job-card">
+                                            <div class="job-meta">
+                                                <span class="company"
+                                                    >LinkedIn</span
+                                                >
+                                                <h4>UI/UX Designer</h4>
+                                            </div>
+                                            <div class="job-actions">
+                                                <button
+                                                    class="btn btn-sm btn-outline"
+                                                >
+                                                    Save
+                                                </button>
+                                                <button
+                                                    class="btn btn-sm btn-primary"
+                                                >
+                                                    Apply
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Testimonials & Articles -->
+                            <section class="content-block">
+                                <div class="container">
+                                    <div class="testimonials">
+                                        <h3>What’s Our Client’s Says</h3>
+                                        <div class="testi-grid">
+                                            <div class="testi-card">
+                                                “This is the ultimate platform
+                                                for discovering your dream job.”
+                                            </div>
+                                            <div class="testi-card">
+                                                “Remarkable effort… I'm
+                                                genuinely amazed.”
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="articles">
+                                        <h3>Our Latest Articles</h3>
+                                        <div class="articles-grid">
+                                            <article class="article-card">
+                                                <img
+                                                    src="assets/article1.jpg"
+                                                    alt="article"
+                                                />
+                                                <h4>
+                                                    How To Convince Recruiters
+                                                    And Get Your Dream Job
+                                                </h4>
+                                            </article>
+                                            <article class="article-card">
+                                                <img
+                                                    src="assets/article2.jpg"
+                                                    alt="article"
+                                                />
+                                                <h4>
+                                                    5 Things To Know About The
+                                                    March 2024 Job Report
+                                                </h4>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- CTA -->
+                            <section class="cta">
+                                <div class="container cta-inner">
+                                    <h2>
+                                        Find Your Ideal Job Among Thousands of
+                                        Opportunities
+                                    </h2>
+                                    <button class="btn btn-primary btn-cta">
+                                        Try Now
+                                    </button>
+                                </div>
+                            </section>
+
+                            <!-- Footer -->
+                            <footer class="site-footer">
+                                <div class="container footer-inner">
+                                    <div class="footer-col">
+                                        <h4>About ITJOB</h4>
+                                        <p>
+                                            Connecting professionals and
+                                            employers across the tech industry.
+                                        </p>
+                                    </div>
+                                    <div class="footer-col">
+                                        <h4>Quick Links</h4>
+                                        <ul>
+                                            <li><a href="#">Jobs</a></li>
+                                            <li><a href="#">Companies</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-col">
+                                        <h4>Contact</h4>
+                                        <p>info@itjob.com</p>
+                                    </div>
+                                </div>
+                                <div class="footer-bottom">
+                                    <div class="container">
+                                        &copy; 2025 ITJOB. All rights reserved.
+                                    </div>
+                                </div>
+                            </footer>
+
+                            <script src="js/main.js"></script>
+                        </body>
+                    </html>
                 </ul>
             </div>
-            <div class="footer-section">
-                <h3>Contact Us</h3>
-                <p>Email: info@itjobs.com</p>
-                <p>Phone: (555) 123-4567</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 ITJobs. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
+        </nav>
+    </body>
 </html>
