@@ -1,4 +1,4 @@
-# LangBuddy - Language Learning Community Platform
+# ITJOB - Language Learning Community Platform
 
 A web-based platform for language learners to connect, practice, and improve their language skills through real conversations and interactive tools.
 
@@ -25,12 +25,12 @@ A web-based platform for language learners to connect, practice, and improve the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/langbuddy.git
+   git clone https://github.com/RkDinhChien/ITJOB.git
    ```
 
 2. Open the project:
    ```bash
-   cd langbuddy
+   cd ITJOB
    ```
 
 3. Open `index.html` in your web browser to run the application.
@@ -38,7 +38,7 @@ A web-based platform for language learners to connect, practice, and improve the
 ## Project Structure
 
 ```
-langbuddy/
+ITJOB/
 ├── index.html          # Main HTML file
 ├── css/
 │   └── styles.css      # Styles and animations
