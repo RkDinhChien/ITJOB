@@ -1,0 +1,15 @@
+/* base.css - reset, variables, utilities */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --cyan-900:#002b2b;
+  --cyan-700:#007f87;
+  --cyan-500:#00c4d6;
+  --cyan-300:#bff7fb;
+  --dark:#0b1115;
+  --muted:#6b7785;
+  --white:#ffffff;
+}
+html,body{font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--dark);background:#fff}
+.container{max-width:1180px;margin:0 auto;padding:0 20px}
+.btn{border-radius:999px;padding:10px 16px;font-weight:700;border:none;cursor:pointer}
+.muted{color:var(--muted)}
