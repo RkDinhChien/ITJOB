@@ -1,10 +1,49 @@
 /* components.css - small reusable components */
-.btn-outline{background:transparent;border:1.5px solid var(--cyan-500);color:var(--cyan-700)}
-.btn-primary{background:var(--cyan-700);color:var(--white)}
-.btn-accent{background:var(--cyan-500);color:var(--dark)}
-.cat-card, .how-step, .job-card, .article-card{transition:transform .18s ease,box-shadow .18s ease}
-.cat-card:hover,.how-step:hover,.job-card:hover{transform:translateY(-6px)}
-.article-card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 8px 20px rgba(7,16,18,0.06);padding:12px}
-.article-card img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid var(--cyan-500);
+  color: var(--cyan-700);
+}
+.btn-primary {
+  background: var(--cyan-700);
+  color: var(--white);
+}
+.btn-accent {
+  background: var(--cyan-500);
+  color: var(--dark);
+}
+.cat-card,
+.how-step,
+.job-card,
+.article-card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.cat-card:hover,
+.how-step:hover,
+.job-card:hover {
+  transform: translateY(-6px);
+}
+.article-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(7, 16, 18, 0.06);
+  padding: 12px;
+}
+.article-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
-.notification{position:fixed;right:20px;bottom:20px;background:rgba(0,0,0,0.8);color:#fff;padding:10px 14px;border-radius:8px;z-index:9999}
+.notification {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  z-index: 9999;
+}

@@ -1,14 +1,14 @@
 // jobs.js - job card actions and simulated data
 const jobData = [];
 
-function saveJob(id){
+function saveJob(id) {
   // simulate saving
-  showNotification('Job saved');
+  showNotification("Job saved");
 }
 
-function applyJob(id){
+function applyJob(id) {
   // simulate apply
-  showNotification('Applied to job (simulated)');
+  showNotification("Applied to job (simulated)");
 }
 
 window.saveJob = saveJob;
